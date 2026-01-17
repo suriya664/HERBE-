@@ -293,6 +293,12 @@
       margin: 0;
       max-width: 100%;
       table-layout: auto;
+      color: var(--text-color);
+    }
+
+    .table > :not(caption) > * > * {
+      color: var(--text-color);
+      background-color: transparent;
     }
 
     .table-wrapper {
@@ -313,6 +319,10 @@
       padding: 0.75rem;
       border-bottom: 1px solid rgba(184, 122, 59, 0.1);
       color: var(--text-color);
+    }
+
+    .table tbody tr {
+      background: transparent;
     }
 
     .table tbody tr:hover {
@@ -491,7 +501,6 @@
       <a href="../index.html" class="sidebar-logo">
         <img src="https://www.pngitem.com/pimgs/m/333-3335536_ayurveda-icon-hd-png-download.png"
           alt="PranaLeaf Ayurveda Logo" class="logo-img">
-        <span class="logo-text">Prana<span class="logo-accent">Leaf</span></span>
       </a>
     </div>
     <nav class="sidebar-nav">

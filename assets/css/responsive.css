@@ -623,11 +623,11 @@
 
   .nav-menu {
     position: fixed;
-    top: 70px;
+    top: 0;
     right: -100%;
     width: 280px;
     max-width: 85%;
-    height: calc(100vh - 70px);
+    height: 100vh;
     background: var(--bg-primary);
     flex-direction: column;
     padding: 0 !important;
@@ -663,10 +663,10 @@
   body.menu-open::before {
     content: '';
     position: fixed;
-    top: 70px;
+    top: 0;
     left: 0;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
     backdrop-filter: blur(2px);
