@@ -60,6 +60,7 @@ body.dark-mode {
   background-image: 
     radial-gradient(circle at 20% 50%, rgba(196, 138, 85, 0.08) 0%, transparent 50%),
     radial-gradient(circle at 80% 80%, rgba(224, 162, 90, 0.05) 0%, transparent 50%);
+  padding-top: 0;
 }
 
 body.dark-mode h1,
@@ -100,11 +101,11 @@ body.dark-mode .hero {
   background-image: 
     radial-gradient(ellipse at top, rgba(196, 138, 85, 0.1) 0%, transparent 50%),
     radial-gradient(ellipse at bottom, rgba(60, 42, 31, 0.3) 0%, transparent 50%);
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 body.dark-mode .page-hero {
-  padding-top: 30px;
+  padding-top: 0;
 }
 
 body.dark-mode .hero h1 {
